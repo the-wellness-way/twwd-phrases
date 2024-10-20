@@ -1,0 +1,25 @@
+{
+    "name": "prudy/twwd-phrases",
+    "autoload": {
+        "psr-4": {
+            "TwwdPhrases\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwwdPhrases\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Philip Rudy",
+            "email": "me@philiparudy.com"
+        }
+    ],
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6",
+        "wp-phpunit/wp-phpunit": "^6.3",
+        "yoast/phpunit-polyfills": "^2.0"
+    },
+    "require": {}
+}
